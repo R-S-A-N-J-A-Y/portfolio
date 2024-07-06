@@ -1,0 +1,53 @@
+/*Education*/
+
+.education-container{
+    margin-top: 100px;
+    color: aqua;
+    height: 500px;
+    background-color:hsl(0, 0%, 17%);
+    padding: 35px;
+    width: 550px;
+    border-radius: 25px;
+    position: relative;
+}
+
+.education-container h1{
+    font-size: 40px;
+    margin: 0;
+}
+
+.circle-ed{
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 130px;
+    left: 50px;
+}
+
+.content-ed{
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 57px;
+    margin-top: 40px;
+    color: white;
+    justify-content: space-between;
+}
+
+.content-ed h1,h2,h3{
+    font-size: 20px;
+    margin: 5px;
+}
+
+.item-1{
+    display: flex;
+    flex-direction: column;
+}
+.item-2{
+    display: flex;
+    flex-direction: column;
+}

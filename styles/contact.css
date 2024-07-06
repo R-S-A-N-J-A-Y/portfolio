@@ -1,0 +1,176 @@
+.connect-container{
+    padding: 20px 150px 0px 110px;
+}
+
+.connect-div{
+    background-color:hsl(0, 0%, 14%);
+    position: relative;
+    border-radius: 0 0 50px 0;
+}
+
+.connect{
+    background-color: black;
+    width: 1100px;
+    padding: 50px 480px 60px 90px;
+}
+
+.connect h1{
+    font-family:  'Protest Strike', sans-serif;
+    color: aqua;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.connect p{
+    color: white;
+    font-size: 20px;
+}
+
+.name,
+.email,
+.message,
+.phone{
+    position: relative;
+}
+
+
+.name label,
+.email label,
+.message label,
+.phone label{
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 4px;
+    font-size: 20px;
+    padding: 10px 0;
+    font-family: 'Protest Strike', sans-serif ;
+    transition: top 0.3s ease-in;
+}
+
+.message{
+    margin-top: 20px;
+}
+
+.connect input:focus + label,
+.connect input:valid + label{
+    top:-30px;
+}
+
+
+
+.name input,
+.email input,
+.message input,
+.phone input{
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 30px;
+    height: 50px;
+    border: none;
+    border-bottom: 2px solid rgb(105, 105, 105);
+    outline: none;
+    background: transparent;
+    padding: 5px 20px 0px 5px;
+    color: rgb(190, 190, 190);
+}
+
+.connect button{
+    background-color:aqua;
+    height: 50px;
+    width: 100px;
+    padding: 6px;
+    border: 3px solid black;
+    border-radius: 20px ;
+}
+
+.connect button p{
+    color: black;
+    margin: 0;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.follow-me-txt{
+    position: absolute;
+    color: white;
+    bottom: 70px;
+    right: 30px;
+    font-weight: bolder;
+    text-shadow: 15px 6px 4px rgb(173, 173, 173);
+}
+
+.follow-me{
+    position: absolute;
+    height:50px;
+    width:159px;
+    bottom: 10px;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 0px 30px ;
+}
+
+.follow-me button{
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 5px;
+    border: none;
+}
+
+.follow-me img{
+    height: 33px;
+    cursor: pointer;
+}
+
+#insta-1{
+    height: 40px;
+}
+
+.contact{
+    position: absolute;
+    top: 0px;
+    right: 0;
+    height:130px;
+    width: 300px;
+    background-color:hsl(0, 0%, 14%);
+    border-radius: 90px 0 60px 10px;
+    text-align: right;
+    padding: 20px;
+}
+
+.contact h1{
+    font-size: 30px;
+    font-family:'Protest Strike', sans-serif;
+    text-shadow: 15px 6px 4px rgb(75, 74, 74);
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 24px;
+}
+
+.contact a{
+    margin-left: 33px;
+    color: white;
+    text-decoration: none;
+}
+
+.contact button{
+    height: 50px;
+    width: 40px;
+    top: 65px;
+    left: 13px;
+    position: absolute;
+    border: none;
+    background-color: transparent;
+}
+
+.contact img{
+    margin-left: -3px;
+    height: 50px;
+    cursor: pointer;
+}
+
+
+

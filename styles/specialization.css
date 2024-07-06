@@ -1,0 +1,61 @@
+.my-specialization-container{
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 160px;
+    background-color: black;
+    color: aqua;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#specs-design{
+    position: absolute;
+    height: 50px;
+    left: 720px;
+    top: 350px;
+    filter:drop-shadow(20px 10px 1px  rgb(142, 142, 142));
+}
+
+.my-specialization-container h1{
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: 'Protest Strike', sans-serif;
+    display: inline;
+}
+
+.my-specs-grid{
+    display: grid;
+    padding: 40px;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 30px;
+    margin-top: 70px;
+    column-gap: 0px;
+    margin: 70px 30px 20px 30px;
+    place-items: center;
+}
+
+.designing,
+.development{
+    box-shadow: 5px 5px 10px -1px aqua;
+    border: none;
+    text-align: left;
+    padding: 40px;
+    border-radius: 60px 0 60px 0px;
+    height: 450px;
+    width: 370px;
+}
+
+.designing h2,
+.development h2{
+    font-size: 40px;
+    font-family: 'Protest Revolution', sans-serif;
+    display: inline;
+}
+
+.designing p,
+.development p{
+    margin-top: 60px;
+    font-size: 28px;
+    color: white;
+}
+

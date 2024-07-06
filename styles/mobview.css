@@ -1,0 +1,427 @@
+/* Mob view */
+
+@media only screen and (max-width:600px){
+
+    body{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /*Sidebar*/
+    .sidebar{
+        display: none;
+    }
+
+    /*Heropage*/
+    .mode-specifier{
+        margin-left: 460px;
+        margin-top: 10px;
+    }
+
+
+    .heropage{
+        grid-template-columns: 1fr;
+        height: 100%;
+    }
+
+    .my-pic-container{
+        padding: 80px 50px;
+        height:600px;
+    }
+
+    .my-pic-container-1{
+        height: 100%;
+        width: 100%;
+        border-radius: 45px;
+        margin: 0;
+    }
+
+    .about-me{
+        padding-top:50px;
+
+    }
+    
+    .about-me-1{
+        margin: 0;
+        width:560px;
+        padding: 10px;
+    }
+
+    .about-me-1 h1,
+    .about-me-1 h2,
+    .resume-container .resume h1,
+    .resume-container .resume p{
+        font-size: 28px;
+    }
+
+    .about-me-1{
+        margin-bottom: 40px;
+    }
+
+    .about-me-1 p{
+        font-size: 20px;
+    }
+
+    /*RESUME*/
+
+    .resume-container .resume-heads h1{
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+
+
+    .resume-container .resume-heads p{
+        line-height:50px;
+        font-size: 30px;
+    }
+
+    .resume-contents .resume,
+    .resume-contents .resume-1{
+        height: 200px;
+        width: 200px;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .resume-contents .resume-1{
+        margin-left: 230px;
+        width: 280px;
+    }
+
+    .resume-contents .resume p,
+    .resume-contents .resume-1 p{
+        font-size: 10px;
+    }
+
+    .resume .item-1-tail{
+        margin-left: 30px;
+    }
+
+    .resume .item-3-tail{
+        margin-left: 10px;
+    }
+
+    .resume .item-4-tail{
+        margin-left: 4px;
+    }
+
+    .resume-1 .item-1-tail{
+        margin-left: -16px;
+    }
+
+    .resume-1 .item-3-tail{
+        margin-left: -10px;
+    }
+    
+    .resume-1 .item-4-tail{
+        margin-left: -18px;
+    }
+    
+    .more-info{
+        margin-top: 30px;
+        top: 250px;
+        right: 170px;
+        padding: 3px;
+        width: 150px;
+        padding-left: 10px;
+        padding-right: 20px;
+    }
+
+    .more-info:hover{
+        padding-right: 20px;
+    }
+
+    .more-info p{
+        margin: 0;
+        font-size: 20px;
+    }
+
+    .about-me-button{
+        top: 1px;
+        height: 30px;
+        width: 35px;
+    }
+
+    .arrow-img{
+        height: 20px;
+        margin-top: 3px;
+        margin-left: 2px;
+    }
+
+
+    /*SKILLS */
+    
+    .skills-container{
+        grid-template-columns: 1fr;
+    }
+
+    #skill-design{
+        display: none;
+    }
+
+    .skills-img{
+        height: 60px;
+    }
+
+    .skills-container h2,
+    .title-skills h1{
+        font-size: 38px;
+    }
+
+    .tech-skill-container,
+    .proff-skill-container{
+        margin-top: 30px;
+        width: 450px;
+        height: 550px;
+        box-shadow: inset -8px -8px 10px -1px rgb(246, 247, 247);
+    }
+
+    .tech-skill h2,
+    .proff-skill h2{
+        font-size: 180%;
+        margin: 40px 20px 40px 90px;
+    }
+
+
+    .tech-flex-element{
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    /* Linear bar*/
+
+    .tech-skill-div{
+        width: 500px;
+        height: 440px;
+        margin-left: 0px;
+    }
+
+    .row-bar {
+        width: 310px; 
+    }
+
+    .tool-tip{
+        left: 290px;
+        top: -25px;
+    }
+
+    .row-bar-clr-c,
+    .row-bar-clr-css
+    {
+        width: 249px; 
+    }
+    .row-bar-clr-htm,
+    .row-bar-clr-py
+    {
+        width: 280px; 
+    }
+
+    .row-bar-clr-java,
+    .row-bar-clr-js
+    {
+        width: 224px; 
+    }
+
+
+    /*circular bar*/
+
+    .proff-skill{
+        display: inline;
+    }
+
+    .my-skills{
+        margin-left: 50px;
+        margin-top: 20px;
+        width: 0px;
+    }
+
+    .outer-circle{
+        height: 120px;
+        width: 120px;
+    }
+
+    .inner-circle{
+        height: 70px;
+        width: 70px;
+    }
+
+    circle{
+        cx: 60px;
+        cy: 60px;
+        r: 50px;
+    }
+
+    .Creativity{
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+    }
+
+    .Problem-Solving{
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+    }
+
+    @keyframes animeComm {
+        100%{
+            stroke-dashoffset: 730;
+        }
+    }
+
+    @keyframes animeCrea {
+        100%{
+            stroke-dashoffset: 766;
+        }
+    }
+
+    @keyframes animePS {
+        100%{
+            stroke-dashoffset: 750;
+        }
+    }
+
+    @keyframes animeTW {
+        100%{
+            stroke-dashoffset: 740;
+        }
+    }
+
+    .value{
+        color: white;
+        margin-left: -11px;
+        margin-top: -5px;
+        font-size: 18px;
+        font-weight: bolder;
+    }
+
+    .my-skills p{
+        font-size: 13px;
+        width: 150px;
+        margin-left: -10px;
+        margin-top: 16px;
+    }
+
+    /* MY SPECIALIZATION*/
+
+    .my-specialization-container{
+        padding-top: 40px;
+        padding-bottom: 0px;
+    }
+
+    #specs-design{
+        display: none;
+    }
+
+    .my-specialization-container h1{
+        font-size: 38px;
+    }
+
+    .my-specs-grid{
+        grid-template-columns: 1fr;
+        row-gap: 70px;
+        padding: 20px;
+    }
+
+    .my-specs-grid .development,
+    .my-specs-grid .designing{
+        padding: 40px;
+        box-shadow: 5px 5px 10px -1px aqua;
+        border: none;
+    }
+
+    .my-specs-grid .development h2, 
+    .my-specs-grid .designing h2
+    {
+        font-size: 33px;
+    }
+
+    .my-specs-grid .development p, 
+    .my-specs-grid .designing p{
+        font-size: 25px;
+    }
+
+    /*Contact*/
+
+    .connect-container{
+        padding: 0;
+    }
+
+    .connect-div{
+        border-radius: 0;
+    }
+
+    .connect{
+        width:100%;
+        padding: 30px;
+    }
+
+    .connect h1{
+        font-size: 30px;
+    }
+
+    .connect p{
+        width: 400px;
+    }
+
+    .connect p,.name label,
+    .email label,
+    .message label,
+    .phone label{
+        font-size: 16px;
+    }
+
+
+    .name input,
+    .email input,
+    .message input,
+    .phone input{
+        width: 90%;
+        padding: 5px 30px 0px 15px;
+    }
+
+    .connect button{
+        height: 40px;
+        width: 90px;
+    }
+
+    .connect button p{
+        width: 80px;
+    }
+
+    .follow-me-txt{
+        position: absolute;
+        bottom: 80px;
+        right: 20px;
+    }
+    
+    .follow-me{
+        position: absolute;
+        bottom: 0px;
+        right: 0;
+        padding-left: 10px;
+    }
+
+    .follow-me button{
+        margin-left: 22px;
+        margin-top: -20px ;
+    }
+
+    .contact{
+        position: relative;
+        top: 0;
+        right: 0;
+        text-align: left;
+    }
+
+    .contact button{
+        margin-top: 2px;
+    }
+
+    .contact button img{
+        height: 40px;
+    }
+
+}
+
+
+
+

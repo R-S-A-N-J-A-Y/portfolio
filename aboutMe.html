@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about-me</title>
+
+    <link rel="stylesheet" href="styles/aboutme/sidebar.css">
+    <link rel="stylesheet" href="styles/aboutme/about.css">
+    <link rel="stylesheet" href="styles/aboutme/education.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Protest+Revolution&family=Protest+Strike&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+</head>
+<body>
+    <!--MY PIC CONTAINER-->
+    <div class="myPicture-container">
+        <img src="images/Screenshot_20240428-120918.png" class="my-pic-class">
+    </div>
+    
+    <!--SIDE BAR-->
+    <div id="sidebar" class="sidebar">
+        <div class="element-1">
+            <button onclick="gotoLink('Home')">
+                <img src="Icon/sidebar/home.png" alt="">
+            </button>
+        </div>
+        <div class="element-2">
+            <button onclick="gotoLink('resume')">
+                <img src="Icon/sidebar/resume.png" alt="">
+            </button>
+        </div>
+        <div class="element-3">
+            <button onclick="gotoLink('skillid')">
+                <img src="Icon/sidebar/skills.gif" alt="">
+            </button>
+        </div>
+    </div>
+
+    <!--ABOUT ME-->   
+    
+    <div id="Home">`</div> 
+    <div class="aboutme-container">
+        <h1>MORE ABOUT ME</h1>
+
+        <h2>SANJAY R</h2>
+        <h4 style="color: rgb(5, 167, 167);">PROFESSIONAL DEVELOPER</h4>
+
+        <div class="row"></div>
+        <p>I'm a Passionate Web developer focused on Crafting clean & user-Friendly Experiance.</p>
+        <div class="row"></div>
+
+        <div class="details-grid">
+            <div class="elements">
+                <p>I'm 19 years Old</p>
+                <div class="row-1"></div>
+            </div>
+
+            <div class="elements">
+                <div class="row-1"></div>
+                <p>+91 9787045901</p>
+            </div>
+            
+            <div class="elements">
+                <div class="row-2"></div>
+                <p>From Tamilnadu,India</p>
+            </div>
+            
+            <div class="elements">
+                <div class="row-2"></div>
+                <p>sanjay.developer.official@gmail.com</p>
+            </div>
+            
+        </div>
+
+        <div class="Social-Links">
+            <button class="btn" onclick="gotoLink(this)" id = "insta"><img src="icon/social/insta_icon.png" alt=""></button>
+            <button class="btn btn-1" onclick="gotoLink(this)" id = "LL"><img src="icon/social/LL_icon.png" alt=""></button>
+            <button class="btn btn-2" onclick="gotoLink(this)" id = "git"><img src="icon/social/git.png" alt=""></button>
+        </div>
+
+        <div class="row"></div>
+
+        <div class="circle-container-grid">
+            <div class="circle"><div class="content"><p>0%</p></div></div>
+            <div class="circle"><div class="content"><p>0%</p></div></div>
+            <p id="pTag">Designer</p>
+            <p id="pTag-1">Programmer</p>      
+        </div>
+    </div>
+
+    <!--EDUCATION-->
+
+    <div class="education-container">
+        <h1>EDUCATION</h1>
+
+        <div class="circle-ed"></div>
+
+        <div class="content-ed">
+            <div class="item-1">
+                <h1>HSC</h1>
+                <h2>Universal Matriculation hr Sec School</h2>
+                <h3>Completed in 2022</h3>
+            </div>
+            <div class="item-2">
+                <h1>Bachelor's in CSE</h1>
+                <h2>KIT - KalaignarKarunanidhi Institute of Technology</h2>
+                <h3>2022 - 2026</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="aboutme-container">
+        <h1>ABOUT</h1>
+        <h1 style="margin-left: 30px;color:aqua;">ME</h1>
+
+        <p>
+            <br>I'm a Passionate Web developer focused on Crafting clean & user-Friendly Experiance. In a Realm of Web development , I strive to keep it Simple, Impactful and User-centric.
+        </p>
+    </div>
+
+    <script src="script/goto.js"></script>
+    <script src="script/about-me/circular-bar.js"></script>
+</body>
+</html>

@@ -1,0 +1,146 @@
+
+.resume-container{
+    background-color: black;
+    padding: 30px 50px 10px 50px;   
+    height: 600px;
+}
+
+.resume-heads{
+    text-align: center;
+}
+
+.resume-heads h1{
+    display: inline-block;
+    font-family:'Protest Strike', sans-serif;
+    font-size: 230%;
+    font-weight: bold;
+    color: white;
+}
+
+.resume-heads p{
+    margin: 19px;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 50px;
+    color: white;
+}
+
+.resume-contents{
+    position: relative;
+}
+
+.resume,
+.resume-1{
+    margin-top: 40px;
+    position: absolute;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px;
+    width: 400px;
+    margin-left: 60px;
+}
+
+.resume p,
+.resume-1 p{
+    margin: 10px;
+    padding: 0;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline;
+    line-height: 50px;
+}
+
+.resume-1{
+    margin-left: 480px;
+    width: 600px;
+}
+
+.item-1-head{
+    color: aqua;
+}
+
+.item-1-tail,
+.item-2-tail,
+.item-3-tail,
+.item-4-tail,
+.item-5-tail
+{
+    color: white;
+}
+
+.resume .item-1-tail{
+    margin-left: 46px;
+}
+
+.resume .item-3-tail{
+    margin-left: 19px;
+}
+
+.resume .item-4-tail{
+    margin-left: -4px;
+}
+
+.resume-1 .item-1-tail,
+.resume-1 .item-4-tail{
+    margin-left: -46px;
+}
+
+.resume-1 .item-3-tail{
+    margin-left: -34px;
+}
+
+.more-info{
+    position: absolute;
+    display: inline-block;
+    
+    top: 120px;
+    right: 200px;
+    border: 1px solid aqua;
+    
+    border-radius: 30px 30px 30px 30px;
+    padding: 8px 60px 8px 12px;
+    cursor: pointer;
+
+}
+
+.more-info:hover{
+    background-color: aqua;
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+.more-info:hover p{
+    color: black;
+}
+
+.more-info p{
+    display: inline-block;
+    font-size: 26px;
+    margin: 0;
+    color: white;
+}
+
+.about-me-icon{
+    top: 0;
+    right: -11px;
+}
+
+.about-me-button {
+    position: absolute;
+    height: 48px;
+    width: 50px;
+    border-radius: 50%;
+    top: 2px;
+    right: -14px;
+    cursor: pointer;
+    background-color: black;
+    
+}
+
+.arrow-img{
+    height: 38px;
+    border-radius: 50%;
+    margin-top: 2px; 
+}
