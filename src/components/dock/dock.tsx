@@ -12,29 +12,29 @@ const dock = () => {
       href: "/",
     },
     {
-      title: "Projects",
+      title: "Skills",
       icon: <IconCode className="h-full w-full" />,
+      href: "/skills",
+    },
+    {
+      title: "Projects",
+      icon: <IconUser className="h-full w-full" />,
       href: "/projects",
     },
     {
-      title: "About",
-      icon: <IconUser className="h-full w-full" />,
-      href: "/about",
-    },
-    {
-      title: "Contact",
+      title: "Myself",
       icon: <IconMail className="h-full w-full" />,
-      href: "/contact",
+      href: "/myself",
     },
     {
-      title: "About",
+      title: "Blog",
       icon: <IconUser className="h-full w-full" />,
-      href: "/about",
+      href: "/blog",
     },
     {
-      title: "Contact",
+      title: "AfterEffects",
       icon: <IconMail className="h-full w-full" />,
-      href: "/contact",
+      href: "/after-effects",
     },
     {
       title: "Contact",
